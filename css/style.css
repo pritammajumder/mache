@@ -1,0 +1,892 @@
+/*
+	#Author: Pritam Majumder
+	#Email: pmajumder1010@gmail.com
+	#Address: Dhaka,Bangladesh
+*/
+
+/*
+	============= Index ================
+	1. Heaedr
+
+	2. Hero
+
+	3. Powerfull Psd Template
+
+	4. Our Services
+
+	5.	Quote
+
+	6.	Our Prices
+
+	7.	All Supports
+
+	8.	Become A community
+
+	9. Latest Upadtes
+
+	10. Free Psd Template
+
+	11. Download Site
+
+	12. Footer
+
+	====================================
+
+*/
+
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|PT+Serif:400,700|Roboto:100,400,500,700,900');
+
+/*Global CSS*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+section{
+	padding: 60px 0px;
+}
+
+h1{
+	font-size:61.33px;
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-weight: 300;
+	padding: 10px 0px;
+}
+
+h2{
+
+}
+
+h3{
+	font-weight: 400;
+	font-style: italic;
+}
+
+h4{
+	font-size: 22px;
+	color: #ffffff;
+	padding: 10px 10px;
+	font-weight: 400;
+	line-height: 1.5em;
+}
+
+h5{
+	color: #cfcfcf;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.5em;
+}
+h6{
+	text-transform: uppercase;
+	padding: 10px 0px;
+	color: #3e3a3a;
+}
+
+
+p{
+	font-size: 17px;
+}
+
+a{
+	font-size: 21.33px;
+	transition: 0.3s all ease;
+}
+
+.support-row h6{
+	color: #ed145b !important;
+}
+.show-more{
+    padding: 12px 50px;
+    border-radius: 30px;
+    border: none;
+    background: #ed145b;
+    color: #ffffff;
+    font-weight: 500;
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+.show-more:hover{
+	background-color: #ec3571;
+}
+.center-line{
+	display: block;
+	margin: 20px auto;
+	background-color: #ed145b;
+	width: 180px;
+    padding: 1px 0px;
+
+}
+.center-title{
+	text-align: center;
+	padding: 50px 50px;
+	color: #5a5a5a;
+}
+
+/*Header section*/
+.header{
+
+
+}
+.header-container{
+	background: rgba(0,0,0,0.5);
+}
+
+ul li a{
+	color: #ffffff !important;
+	transition: 0.3s all ease;
+}
+ul li a:hover{
+	color: #ed145b !important;
+}
+
+.line{
+	background-color: #ed145b;
+	width: 180px;
+    padding: 1px 0px;
+    margin: 25px 0px;
+}
+
+/*Hero section*/
+.hero{
+	background-image: url('../images/hero.png');
+	background-size: cover;
+}
+.hero-details{
+	text-align: center;
+}
+.hero-title{
+	margin-top: 170px;
+}
+.hero-line{
+    background: #ed145b;
+    width: 23%;
+    padding: 1px 0px;
+    display: block;
+    margin: 20px auto;
+
+}
+.hero-btn{
+	padding-bottom: 95px;
+	padding-top: 45px;
+}
+
+/*Line section */
+.epic-line{
+	padding: 10px 0px !important;
+	background-color: #ed145b;
+}
+
+/*Powerfull section*/
+.powerfull{
+	background-color: #f4f4f4;
+	position: relative;
+}
+.powerfull-container-one{
+    position: absolute;
+    width: 100%;
+    padding: 32px 0px;
+    left: 0;
+    top: -6px;
+    background-color: #f4f4f4;
+    transform: rotate(-1deg);
+    background-color: #f4f4f4;
+}
+
+.powerfull-details-two{
+	position: relative;
+}
+.powerfull-mac{
+    position: absolute;
+    width: 730px;
+    bottom: -130px;
+}
+.see-video{
+
+}
+
+/*Service section*/
+.service-title{
+	text-align: center;
+	padding: 50px 50px;
+}
+.service-row-two{
+	text-align: center;
+	padding: 20px 0px;
+}
+
+
+/*Quote section*/
+.quote{
+	background-image: url('../images/quotebanner.png');
+	background-size: cover;
+}
+.carousel-title{
+	width: 60%;
+	margin: 0 auto;
+}
+.quote-container{
+	padding: 80px 0px;
+}
+.quote-icon{
+	text-align: center;
+}
+.top{
+	font-size: 28px;
+    padding: 15px 0px;
+    color: #ed145b;
+}
+/*Price section*/
+.price{
+	background-color: #f4f4f4;
+}
+.price-details{
+	text-align: center;
+}
+.price-box-one{
+	background-color: #5a5a5a;
+	padding: 20px;
+	color: #ffffff;
+}
+.price-box-two{
+	background-color: #ffffff;
+	padding:30px 20px;
+	position: relative;
+}
+#business{
+	background-color: #ed145b;
+}
+.fa-dollar-sign{
+	font-size: 15px;
+}
+
+.buy-btn button{
+	background-color: #ed145b;
+	padding: 8px 25px;
+	border-radius: 30px;
+	border: none;
+	color: #ffffff;
+	transition: 0.3s all ease;
+}
+.extra button{
+    background-color: #f4f4f4;
+    padding: 8px 25px;
+    border-radius: 30px;
+    border: none;
+    color: #5a5a5a;
+    position: absolute;
+    top: -20px;
+    left: 25%;
+}
+.buy-btn button:hover{
+	cursor: pointer;
+	background-color: #ec3571;
+}
+
+/*support section*/
+.support{
+	background-color: #ffffff;
+}
+
+/*community section*/
+.community{
+	background-color: #ed145b;
+}
+.community h2{
+	color: #ffffff;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.join button{
+	background-color: #ffffff;
+	padding: 8px 45px;
+	border-radius: 30px;
+	border: none;
+	color: #ed145b;
+	transition: 0.3s all ease;
+	font-weight: bold;
+	cursor: pointer;
+}
+.join button:hover{
+	box-shadow: 0px 2px 3px #000000; 
+}
+
+ 
+/*update section*/
+.update{
+	background-color: #ffffff;
+}
+.update-over{
+	position: relative;
+	overflow: hidden;
+	margin: 10px;
+}
+.update-info{
+	background-color: #f4f4f4;
+	padding: 15px;
+}
+.position{
+    position: absolute;
+    width: 100%;
+    background: #dc235fe6;
+    height: 100%;
+    right: -100%;
+    top: 0;
+    padding: 0px;
+    margin: 0px;
+}
+.update-details{
+	cursor: pointer;
+	padding: 20px;
+	margin: 0px;
+	transition: 0.3s all ease !important;
+
+}
+.update-over{
+	padding: 0px;
+	margin: 0px;
+}
+.update-title{
+	padding: 0px;
+	margin: 0px;
+}
+
+.update-details:hover .position{
+	transition: 0.3s all ease !important;
+	right: 0;
+}
+.search-icon{
+	position: absolute;
+    left: 40%;
+    top: 40%;
+    font-size: 68px;
+    color: #ffffff;
+}
+.update-more{
+	text-align: center;
+	color: #ed145b;
+}
+.update-more:hover{
+
+}
+.down-arrow{
+	padding: 0px;
+	font-size: 25px;
+	cursor: pointer;
+	transition: 0.3s all ease;
+}
+.down-arrow:hover{
+	margin-top: 1px;
+}
+
+/*Free section*/
+.free{
+	background-image: url('../images/infobanner.png');
+	background-size: cover;
+}
+.free h3{
+	color: #ffffff;
+}
+.free-rwo{
+	text-align: center;
+	color: #ffffff;
+	padding-bottom: 30px;
+}
+.free-details{
+	padding:12px 50px;
+}
+.free-para {
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.free-more{
+	padding-top: 30px;
+}
+
+/*Download section*/
+.download{
+	background-color: #f4f4f4;
+}
+.download-details{
+	width: 80%;
+	margin: 6% auto;
+	
+}
+.download-btn button{
+	background-color: #ed145b;
+	padding: 9px 45px;
+	border-radius: 30px;
+	border: none;
+	color: #ffffff;
+	transition: 0.3s all ease;
+	font-weight: 500;
+	cursor: pointer;
+}
+.download-btn button:hover{
+	background-color: #d11452;
+}
+/*Footer section*/
+.footer{
+	background-color: #2b2b2b;
+}
+.footer-row{
+	padding: 15px 0px;
+	
+}
+.footer-row h6{
+	color: #ffffff !important;
+	font-weight: 400;
+	letter-spacing: 1.1px;
+}
+
+
+@media screen and (max-width: 1500px){
+	.powerfull-mac{
+	    position: sticky;
+	    width: 100%;
+	    
+	}
+
+	.powerfull-mac {
+    	position: absolute;
+    /* width: 100%; */
+	}
+	.line {
+	    background-color: #ed145b;
+	    width: 180px;
+	    padding: 1px 0px;
+	    margin: 16px 0px;
+	}
+}
+
+
+
+@media screen and (max-width: 1280px){
+	.powerfull-mac{
+	    position: sticky;
+	    width: 100%;
+	    
+	}
+
+	.extra button {
+	    background-color: #f4f4f4;
+	    padding: 8px 25px;
+	    border-radius: 30px;
+	    border: none;
+	    color: #5a5a5a;
+	    position: absolute;
+	    top: -20px;
+	    left: 25%;
+	}
+}
+
+@media screen and (max-width: 1140px){
+	.powerfull-mac{
+	    position: sticky;
+	    width: 100%;
+	    
+	}
+
+	.extra button {
+	    background-color: #f4f4f4;
+	    padding: 8px 25px;
+	    border-radius: 30px;
+	    border: none;
+	    color: #5a5a5a;
+	    position: absolute;
+	    top: -20px;
+	    left: 20%;
+	}
+
+	.quote-row {
+	    margin-right: 0px; 
+	    margin-left: 0px; 
+}
+}
+
+
+@media screen and (max-width: 991px){
+
+
+	h1{
+		font-size: 37.33px;
+	    color: #ffffff;
+	    font-family: 'Lato', sans-serif;
+	    text-transform: uppercase;
+	    font-weight: 300;
+	    padding: 10px 0px;
+	}
+
+	h4{
+		font-size: 16px;
+	    color: #ffffff;
+	    padding: 10px 10px;
+	    font-weight: 400;
+	    line-height: 1.5em;
+	}
+	p {
+    	font-size: 15px;
+	}
+
+
+	.hero {
+	    background-image: url(../images/hero.png);
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	}
+	.line {
+	    background-color: #ed145b;
+	    width: 180px;
+	    padding: 1px 0px;
+	    margin: 7px 0px;
+	}
+	.powerfull-mac {
+	    position: absolute;
+	    top: 69px;
+	}
+
+	.carousel-title {
+	    width: 70%;
+	    margin: 0 auto;
+	}
+
+	.quote {
+	    background-image: url(../images/quotebanner.png);
+	    background-size: cover;
+    	
+	}
+	.price-details{
+		padding: 20px;
+	}
+	.extra button {
+	    background-color: #f4f4f4;
+	    padding: 8px 25px;
+	    border-radius: 30px;
+	    border: none;
+	    color: #5a5a5a;
+	    position: absolute;
+	    top: -20px;
+	    left: 37%;
+	}
+	.support-row{
+		text-align: center;
+	}
+
+	.update-details {
+	    cursor: pointer;
+	    padding: 15px 90px;
+	    margin: 0px;
+    	transition: 0.3s all ease !important;
+	}
+	.price-details {
+    	padding: 8px;
+	}
+
+	.extra button {
+	    background-color: #f4f4f4;
+	    padding: 8px 25px;
+	    border-radius: 30px;
+	    border: none;
+	    color: #5a5a5a;
+	    position: absolute;
+	    top: -20px;
+	    left: 10%;
+	}
+
+	.free {
+	    background-image: url(../images/infobanner.png);
+	    background-size: cover;
+	    
+	}
+
+	.update-details {
+	    cursor: pointer;
+	    padding: 10px 8px;
+	    margin: 0px;
+	    transition: 0.3s all ease !important;
+	}
+
+	.search-icon {
+	    position: absolute;
+	    left: 35%;
+	    top: 32%;
+	    font-size: 68px;
+	    color: #ffffff;
+	}
+
+	.join button {
+	    background-color: #ffffff;
+	    padding: 8px 45px;
+	    border-radius: 30px;
+	    border: none;
+	    color: #ed145b;
+	    transition: 0.3s all ease;
+	    font-weight: 500;
+	}
+
+	.powerfull-container-one {
+	    position: absolute;
+	    width: 100%;
+	    padding: 0;
+	    left: 0;
+	    top: -6px;
+	    background-color: #f4f4f4;
+	    transform: rotate(-1deg);
+	    background-color: #f4f4f4;
+	}
+}
+
+
+@media screen and (max-width: 767px){
+
+	section {
+    	padding: 30px 0px;
+	}
+
+	h2{
+		font-size: 1.4rem;
+	}
+	.hero {
+	    background-image: url(../images/hero.png);
+	    background-size: 780px 604px;
+	    /* background-repeat: no-repeat; */
+	}
+	.hero-title {
+    	margin-top: 34px;
+	}
+
+	.hero-line{
+	    background: #ed145b;
+	    width: 23%;
+	    padding: 1px 0px;
+	    display: block;
+	    margin: 5px auto;
+	}
+
+	.hero-btn{
+		padding-bottom: 30px;
+		padding-top: 15px;
+	}
+	.powerfull-mac{
+	    position: sticky;
+	    width: 100%;
+	    
+	}
+
+	.powerfull-container-one {
+	    position: absolute;
+	    width: 100%;
+	    padding: 3px 0px;
+	    left: 0;
+	    top: -6;
+	    background-color: #f4f4f4;
+	    transform: rotate(-1deg);
+	    background-color: #f4f4f4;
+	}
+
+	.quote {
+	    background-image: url(../images/quotebanner.png);
+	    background-size: cover;
+	 
+	}
+
+	.price-details {
+	    text-align: center;
+	    padding: 20px;
+	}
+
+	.extra button {
+	    background-color: #f4f4f4;
+	    padding: 8px 25px;
+	    border-radius: 30px;
+	    border: none;
+	    color: #5a5a5a;
+	    position: absolute;
+	    top: -20px;
+	    left: 37%;
+	}
+
+	.support-row{
+		text-align: center;
+	}
+
+
+	.update-details {
+	    cursor: pointer;
+	    padding: 34px 100px;
+	    margin: 0px;
+	    transition: 0.3s all ease !important;
+	}
+
+
+	.free {
+	    background-image: url(../images/infobanner.png);
+	    background-size: cover;
+
+	}
+
+	.free-para {
+	    width: 92%;
+	    margin: 0 auto;
+	    padding-bottom: 20px;
+	}
+
+
+	.quote-row {
+
+     margin-right: 0px; 
+     margin-left: 0px; 
+	}
+
+	.powerfull-container-one {
+	    position: absolute;
+	    width: 100%;
+	    padding: 7px 0px;
+	    left: 0;
+	    top: -6;
+	    background-color: #f4f4f4;
+	    transform: rotate(-1deg);
+	    background-color: #f4f4f4;
+	}
+}
+
+@media screen and (max-width: 500px){
+	section{
+		padding:40px 0px;
+	}
+
+	h1{
+		font-size:30.33px;
+		color: #ffffff;
+		font-family: 'Lato', sans-serif;
+		text-transform: uppercase;
+		font-weight: 300;
+		padding: 10px 0px;
+	}
+
+	h2{
+		font-size: 25px;
+	}
+
+	h4{
+		font-size: 18px;
+		color: #ffffff;
+		padding: 10px 10px;
+		font-weight: 400;
+		line-height: 1.5em;
+	}
+
+	p{
+
+	}
+
+	.header-container{
+		background: rgba(0,0,0,0.8);
+	}
+
+	.hero{
+		background-image: url('../images/hero.png');
+		background-size: 500px 600px;
+		background-repeat: no-repeat;
+		
+	}
+	.hero-title{
+		margin-top: 15px;
+	}
+
+	.hero-line{
+	    background: #ed145b;
+	    width: 23%;
+	    padding: 1px 0px;
+	    display: block;
+	    margin: 5px auto;
+	}
+
+	.hero-btn{
+		padding-bottom: 30px;
+		padding-top: 15px;
+	}
+	.powerfull-mac{
+	    position: sticky;
+	    width: 100%;
+	    
+	}
+	.powerfull-container-one{
+		position: absolute;
+	    width: 100%;
+	    padding: 32px 0px;
+	    left: 0;
+	    top: -6px;
+	    background-color: #f4f4f4;
+	    transform: rotate(0deg);
+	    background-color: #f4f4f4;
+	}
+
+
+
+
+
+
+
+
+	.quote {
+	    background-image: url(../images/quotebanner.png);
+	    background-size: 542px 542px;
+	    background-repeat: no-repeat;
+	}
+
+
+	.center-title {
+	    text-align: center;
+	    padding: 10px 23px;
+	    color: #5a5a5a;
+	}
+
+
+
+	.price-details {
+	    text-align: center;
+	    padding: 20px;
+	}
+
+	.extra button {
+	    background-color: #f4f4f4;
+	    padding: 8px 25px;
+	    border-radius: 30px;
+	    border: none;
+	    color: #5a5a5a;
+	    position: absolute;
+	    top: -20px;
+	    left: 31%;
+	}
+
+	.support-row{
+		text-align: center;
+	}
+
+	.free {
+	    background-image: url(../images/infobanner.png);
+	    background-size: 600px 636px;
+	    background-repeat: no-repeat;
+	}
+
+	.free-details {
+    	padding: 0px 0;
+	}
+
+	.update-details {
+	    cursor: pointer;
+	    padding: 34px 30px;
+	    margin: 0px;
+    	transition: 0.3s all ease !important;
+	}
+
+	.quote-row{
+		 margin-right:0px;
+    	 margin-left:0px; 
+	}
+}
